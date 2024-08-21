@@ -1,0 +1,50 @@
+body{
+  background-image: url(../img/libre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+  background-color: rgba(255, 255, 255, 0.425);
+  margin:200px ;
+  margin-left:  200px ;
+  width: 300px;
+  border: 1px rgb(0, 0, 0) solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 100px ;
+  padding-top: 0px;
+}
+.B{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+  margin-left: 65px;
+  text-decoration: none;
+  color: #38418f;
+  border-radius: 4px;
+  border: 1px rgb(0, 0, 0) solid;
+} 
+.B:hover{
+  background-color: #405bd6a9;
+  color: #38418f;
+}
+.L{
+  font-family: monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 36ch;
+
+  animation: typing 2s steps(147), blink .5s infinite step-end alternate;
+  overflow: hidden;
+  
+}
+@keyframes typing{
+  from {width: 0;}
+}
+@keyframes blink {
+  50% {border-color: transparent;}
+}
