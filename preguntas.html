@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/preguntas.css">
 </head>
 
-<body>
+<body onclick="Audio">
     <img class="r" src="/img/roto.png" alt="">
     <img class="c" src="/img/celular (2).png" alt="">
     <div class="principal">
@@ -29,7 +29,7 @@
         <div class="botones">
 
             <button type="button" class="boton" id="op1">Perro</button>
-            <BUtton type="button" class="boton" id="op2">Gato</BUtton>
+            <button type="button" class="boton" id="op2">Gato</button>
             <button type="button" class="boton" id="op3">Leon</button>
             <button type="button" class="boton" id="op4">Tortuga</button>
 
@@ -42,11 +42,23 @@
             <p class="mensajeIndescifrado" id="palabraDescifrada"></p>
         </div>
         <br>
-       <a type="button" class="en" href="encriptado.html">Encriptador</a>
+        <a type="button" class="en" href="encriptado.html">Encriptador</a>
 
-        </div>
     </div>
+    </div>
+    <div class="tra">
+        k
+    </div>
+
+    <div class="bri">
+        j
+    </div>
+    <audio id="fondo" loop>
+        <source src="audio/MISTERIO.mp3" type="audio/mp3">
     
+     <script src="js/audio.js"></script>
+
+
     <script src="js/preguntas.js"></script>
 
 </body>

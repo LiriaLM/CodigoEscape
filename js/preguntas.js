@@ -61,9 +61,9 @@ const preguntas = [
     }
     
     function iniciarCronometro() {
-        const duracion = 10;
+        const duracion = 20;
         const cronometro = document.getElementById("cronometro");
-        cronometro.textContent = "00:" + '10';
+        cronometro.textContent = "00:" + '20';
         checktiempo(duracion, cronometro);
     
     }
