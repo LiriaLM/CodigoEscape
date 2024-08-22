@@ -109,13 +109,13 @@ body{
 }
 .c{
     margin-bottom: -600px;
-    margin-left: 515px;
+    margin-left: 520px;
     width: 300px;
 }
 .r{
     width: 258px;
     margin-bottom: -603px;
-    margin-left: 510px ;
+    margin-left: 522px ;
 }
 .en{
     border-radius: 5px;
@@ -139,7 +139,7 @@ body{
     width: 280px;
     height: 580px;
     margin-top: -600px;
-    margin-left: 510px;
+    margin-left: 520px;
     box-shadow: inset 0 0 10px rgb(148, 185, 255), inset 0 0 40px rgb(148, 185, 255), inset 0 0 80px rgb(148, 185, 255);
     color: #33333300;
     border-radius: 40px;
@@ -150,7 +150,7 @@ body{
     width: 280px;
     height: 580px;;
     margin-top: -580px;
-    margin-left: 510px;;
+    margin-left: 520px;;
     color: #33333300;
     border-radius: 40px;
     box-shadow:  0 0 10px rgb(148, 185, 255),  0 0 40px rgb(148, 185, 255),  0 0 80px rgb(148, 185, 255);
